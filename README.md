@@ -9,7 +9,7 @@ It demonstrates an end-to-end workflow using **Python (data prep)**, **SQL (data
 ## ⚙️ Tech Stack
 | Tool | Purpose |
 |------|----------|
-| **Python (Pandas, NumPy)** | Initial data cleaning and inspection |
+| **Python (Pandas)** | Initial data cleaning and inspection |
 | **MySQL** | Data storage and KPI analysis |
 | **Power BI** | Interactive dashboard and storytelling |
 
@@ -65,23 +65,30 @@ It demonstrates an end-to-end workflow using **Python (data prep)**, **SQL (data
 ## 🧰 Files in Repository
 
 📦 **Workforce360-HR-Attrition**
+|
 ├── 📂 **dataset/**
-│   ├── HR_Analytics.csv  
+│   ├── Workforce360.csv  
 │   └── README_dataset.txt  
 │
 ├── 📂 **python_notebook/**
-│   └── HR_Data_Cleaning.ipynb  
+│   └── Workforce360_Data_Cleaning.ipynb  
 │
-├── 📂 **sql_scripts/**
-│   ├── create_tables.sql  
-│   ├── data_insertion.sql  
-│   └── analysis_queries.sql  
+├──📂 **database_tables/**
+│
+├── overall.csv  
+├── overall_attrition_rate.csv  
+├── attrition_by_department.csv  
+├── attrition_by_gender.csv  
+├── attrition_by_age.csv  
+├── attrition_by_jobrole.csv  
+├── attrition_by_salary.csv  
+├── attrition_by_overtime.csv  
+└── attrition_by_yearsatcompany.csv 
 │
 ├── 📂 **images/**
 │   ├── Dashboard_Page1.png  
 │   └── Dashboard_Page2.png  
-│
-├── Workforce360_HR_Attrition.pbix  
+|
 └── README.md
 
 
