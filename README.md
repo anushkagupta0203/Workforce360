@@ -44,11 +44,6 @@ It demonstrates an end-to-end workflow using **Python (data prep)**, **SQL (data
 ---
 
 ## 🖥️ Dashboard Preview
-| Page | Description |
-|------|--------------|
-| **Page 1 – Overview** | Executive summary (KPIs + department / salary / tenure insights) |
-| **Page 2 – Detailed Insights** | Age / Role / Overtime breakdowns with filters |
-
 📸 **Snapshot:**  
 ![Workforce360 Dashboard](images/Dashboard_Page1.png)
 
@@ -69,8 +64,21 @@ It demonstrates an end-to-end workflow using **Python (data prep)**, **SQL (data
 ---
 
 ## 🧰 Files in Repository
-
-
+📦 Workforce360
+ ┣ 📂 dataset/
+ ┃ ┣ HR_Analytics.csv
+ ┃ ┗ README_dataset.txt
+ ┣ 📂 python_notebook/
+ ┃ ┗ HR_Data_Cleaning.ipynb
+ ┣ 📂 sql_scripts/
+ ┃ ┣ create_tables.sql
+ ┃ ┣ data_insertion.sql
+ ┃ ┗ analysis_queries.sql
+ ┣ 📂 images/
+ ┃ ┣ Dashboard_Page1.png
+ ┃ ┗ Dashboard_Page2.png
+ ┣ Workforce360_HR_Attrition.pbix
+ ┗ README.md
 
 
 ---
@@ -78,8 +86,8 @@ It demonstrates an end-to-end workflow using **Python (data prep)**, **SQL (data
 ## 👩‍💻 Author
 **Anushka Gupta**  
 📍 Data Analyst | Business Analyst | SQL Developer  
-🔗 [Portfolio Website](https://your-portfolio-link.com)  
-💼 [LinkedIn](https://linkedin.com/in/anushkagupta0203)
+🔗 [Portfolio Website](https://anushkagupta0203.github.io/)  
+💼 [LinkedIn](https://www.linkedin.com/in/anushkagupta23/)
 
 ⭐ If you find this project helpful, please star the repository!
 
