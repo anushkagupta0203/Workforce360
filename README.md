@@ -83,7 +83,7 @@ It demonstrates an end-to-end workflow using **Python (data prep)**, **SQL (data
 ├── attrition_by_jobrole.csv  
 ├── attrition_by_salary.csv  
 ├── attrition_by_overtime.csv  
-└── attrition_by_yearsatcompany.csv 
+|── attrition_by_yearsatcompany.csv 
 │
 ├── 📂 **images/**
 │   ├── Dashboard_Page1.png  
