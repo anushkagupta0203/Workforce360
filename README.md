@@ -62,23 +62,28 @@ It demonstrates an end-to-end workflow using **Python (data prep)**, **SQL (data
 - Learned Power BI data-modeling and storytelling principles.
 
 ---
-
 ## 🧰 Files in Repository
-📦 Workforce360
- ┣ 📂 dataset/
- ┃ ┣ HR_Analytics.csv
- ┃ ┗ README_dataset.txt
- ┣ 📂 python_notebook/
- ┃ ┗ HR_Data_Cleaning.ipynb
- ┣ 📂 sql_scripts/
- ┃ ┣ create_tables.sql
- ┃ ┣ data_insertion.sql
- ┃ ┗ analysis_queries.sql
- ┣ 📂 images/
- ┃ ┣ Dashboard_Page1.png
- ┃ ┗ Dashboard_Page2.png
- ┣ Workforce360_HR_Attrition.pbix
- ┗ README.md
+
+📦 **Workforce360-HR-Attrition**
+├── 📂 **dataset/**
+│   ├── HR_Analytics.csv  
+│   └── README_dataset.txt  
+│
+├── 📂 **python_notebook/**
+│   └── HR_Data_Cleaning.ipynb  
+│
+├── 📂 **sql_scripts/**
+│   ├── create_tables.sql  
+│   ├── data_insertion.sql  
+│   └── analysis_queries.sql  
+│
+├── 📂 **images/**
+│   ├── Dashboard_Page1.png  
+│   └── Dashboard_Page2.png  
+│
+├── Workforce360_HR_Attrition.pbix  
+└── README.md
+
 
 
 ---
